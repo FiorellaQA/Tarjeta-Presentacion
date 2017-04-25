@@ -1,0 +1,55 @@
+
+div.contenedor-principal{    
+	box-sizing: border-box;
+    position: relative;
+    background-image: url(img/fondo.jpg);
+    background-size: contain;     /*se ajusta al contenedor*/
+    background-position: -66px;
+    width: 600px;
+    height: 311px; 
+}
+img.logo_top{
+	position: absolute;
+    left: 5px;
+    top: 3px;
+    height: 40px;
+}
+img.logo_bottom{
+    position: absolute;
+    top: 253px;
+    right: -7px;
+    height: 65px;
+}
+div.contenedor_datos{
+    border-bottom: 311px solid #3c3c3b;
+    border-left: 193px solid transparent;
+    border-right: 0px solid transparent;
+    position: relative;
+    width: 200px;
+    float: right;
+}
+h1 {
+	position: absolute;
+    right: 34px;
+    font-size: 25px;
+    color: #fff;
+    top: 35px;
+}
+
+h3 {
+	position: absolute;
+    right: 51px;
+    font-size: 15px;
+    color: #f5a731;
+    top: 74px;
+}
+
+div.info_personal {
+    position: absolute;
+    right: 18px;
+    width: 204px;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    top: 133px;
+}
