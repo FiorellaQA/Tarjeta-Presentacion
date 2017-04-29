@@ -4,7 +4,7 @@ Lección 23 - CSS Positioning [Proyecto Finalizado](https://fiorellaqa.github.io
 
 ## Requerimientos
 
-* El fondo consta de un div y una imagen, como podrás observar es un div con una forma no tan común. Investiga sobre : CSS3 Gradients
+* El fondo consta de un div y una imagen, como podrás observar es un div con una forma no tan común.
 * El logo de Laboratoria en la parte inferior derecha es una imagen.
 * Como es tu tarjeta de presentación debería de tener tus datos
 
