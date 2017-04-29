@@ -1,55 +1,75 @@
-
-div.contenedor-principal{    
-	box-sizing: border-box;
+body, html{
+    margin:0;
+    padding:0;
+    background-color: #EBEBEB;
+}
+div.contenedor-principal{  
+    box-shadow: 0px 0px 7px grey;  
+    margin: 100px auto;
     position: relative;
     background-image: url(img/fondo.jpg);
-    background-size: contain;     /*se ajusta al contenedor*/
-    background-position: -66px;
+    background-size: contain;
+    background-position: 135px;
     width: 600px;
-    height: 311px; 
+    height: 311px;
+}
+div.border{
+    z-index: 1;
+    height: 279px;
+    border: 1px solid rgba(247, 182, 23, 0.81);
+    position: absolute;
+    margin: 15px;
+    width: 568px;
 }
 img.logo_top{
-	position: absolute;
-    left: 5px;
-    top: 3px;
-    height: 40px;
+    z-index: 2;
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    height: 50px;
 }
 img.logo_bottom{
+    z-index: 2;
     position: absolute;
     top: 253px;
-    right: -7px;
+    left: -7px;
     height: 65px;
 }
 div.contenedor_datos{
     border-bottom: 311px solid #3c3c3b;
-    border-left: 193px solid transparent;
-    border-right: 0px solid transparent;
+    border-right: 193px solid transparent;
+    border-left: 0px solid transparent;
     position: relative;
     width: 200px;
-    float: right;
+    float: left;
 }
 h1 {
-	position: absolute;
-    right: 34px;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    left: 40px;
     font-size: 25px;
     color: #fff;
-    top: 35px;
+    top: 70px;
+    width: 171px;
 }
 
 h3 {
-	position: absolute;
-    right: 51px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    left: 70px;
     font-size: 15px;
     color: #f5a731;
-    top: 74px;
+    top: 104px;
 }
 
 div.info_personal {
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 6px;
     position: absolute;
-    right: 18px;
+    left: 37px;
     width: 204px;
     font-size: 14px;
     color: #fff;
     text-align: left;
-    top: 133px;
+    top: 157px;
 }
